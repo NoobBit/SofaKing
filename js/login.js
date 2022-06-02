@@ -10,7 +10,7 @@ function login(){
     var password = document.getElementsByClassName('login-pass-input')[0].value;
     console.log(md5(password));
 
-    if (md5(password) == 'a600a987ea8f421ee652292bf7a7e622'){
+    if (md5(password) == '6d6f50ad0fc79ab6be2d3b4acc78a216'){
         login_page.style.display = "none";
         game_page.style.display = "block";
         console.log(game_page.style.display);
